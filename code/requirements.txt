@@ -1,0 +1,5 @@
+requests>=2.31
+Pillow>=10.0
+pillow-avif-plugin>=1.5
+python-dotenv>=1.0
+tenacity>=8.2

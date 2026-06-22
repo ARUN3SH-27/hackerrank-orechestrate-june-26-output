@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "strategy": "per_image",
+      "n_rows": 20,
+      "avg_field_scores": {
+        "evidence_standard_met": 0.8,
+        "issue_type": 0.55,
+        "object_part": 0.8,
+        "claim_status": 0.6,
+        "valid_image": 0.9,
+        "severity": 0.45,
+        "risk_flags": 0.4125,
+        "supporting_image_ids": 0.8
+      },
+      "overall_score": 0.6640625,
+      "model_calls": 49,
+      "fresh_api_calls": 0,
+      "cache_hits": 49,
+      "prompt_tokens": 163247,
+      "completion_tokens": 4998,
+      "images_processed": 29,
+      "elapsed_s": 1.189011812210083
+    },
+    {
+      "strategy": "single_call",
+      "n_rows": 20,
+      "avg_field_scores": {
+        "evidence_standard_met": 0.8,
+        "issue_type": 0.4,
+        "object_part": 0.75,
+        "claim_status": 0.6,
+        "valid_image": 0.8,
+        "severity": 0.55,
+        "risk_flags": 0.6083333333333334,
+        "supporting_image_ids": 0.75
+      },
+      "overall_score": 0.6572916666666667,
+      "model_calls": 20,
+      "fresh_api_calls": 0,
+      "cache_hits": 20,
+      "prompt_tokens": 100659,
+      "completion_tokens": 2114,
+      "images_processed": 29,
+      "elapsed_s": 0.4464867115020752
+    }
+  ],
+  "winner": "per_image"
+}
